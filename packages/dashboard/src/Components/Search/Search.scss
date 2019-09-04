@@ -1,0 +1,38 @@
+.search-main {
+    border: 1px solid theme-color("bi-charcoal");
+    border-radius: 10px;
+}
+
+.search-box {
+    background: transparent;
+  
+    .search-icon {
+      height: 25px;
+      font-size: 18px;
+      border-radius: 3px 0 0 3px;
+      color: white;
+      padding: 10px 20px 10px 20px;
+    }
+  
+    .input-wrapper {
+      max-height: 31px;
+  
+      input {
+        max-height: 30px;
+        border: none;
+        font-size: 14px;
+        
+        &::placeholder {
+          color: theme-color("input-placeholder");
+        }
+  
+        &:focus {
+          outline: none;
+        }
+      }
+  
+  
+    }
+  
+  
+  }

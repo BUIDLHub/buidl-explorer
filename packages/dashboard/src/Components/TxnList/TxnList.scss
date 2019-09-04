@@ -1,0 +1,13 @@
+.txn-row {
+    min-height: 50px !important;
+}
+
+.txn-list-container {
+    border: 1px solid theme-color("bi-charcoal");
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(171,171,171,.25);
+}
+
+.txn-col-content {
+    min-width: 200px !important;
+}

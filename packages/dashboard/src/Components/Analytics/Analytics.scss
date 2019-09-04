@@ -1,0 +1,18 @@
+@import "./Section";
+
+.metrics-box {
+    border: 1px solid theme-color("bi-charcoal");
+    border-radius: 5px;
+    min-height: 200px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(171,171,171,.25);
+}
+
+.block-info {
+    min-height: 100px;
+}
+
+.bi-label {
+    line-height: 1em;
+    font-size: .9rem !important;
+  }
